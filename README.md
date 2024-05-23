@@ -4,6 +4,7 @@ Welcome to the CITE Knowledge Base, your ultimate resource for comprehensive tra
 
 # MySQL
 
+```
 CREATE DATABASE IF NOT EXISTS knowledge_base;
 
 USE knowledge_base;
@@ -15,3 +16,4 @@ CREATE TABLE IF NOT EXISTS content_questions (
     answer TEXT NOT NULL,
     PRIMARY KEY (questionId)
 );
+```
