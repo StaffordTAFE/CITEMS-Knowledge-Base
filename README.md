@@ -11,7 +11,7 @@ USE knowledge_base;
 
 CREATE TABLE IF NOT EXISTS content_questions (
     questionId INT NOT NULL AUTO_INCREMENT,
-    question VARCHAR(255) NOT NULL,
+    question TEXT NOT NULL,
     description TEXT NOT NULL,
     answer TEXT NOT NULL,
     PRIMARY KEY (questionId)
