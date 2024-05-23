@@ -11,59 +11,40 @@
 
 <body>
 <?php include 'includes/nav.php'; ?>
-<div class="container my-3 col-lg-6">
-    <div class="container" id="content-container">
-        <h1>Content Questions</h1>
-        <p>Click on a question to reveal the answer</p>
-
+<div id="background">
+    <div class="container my-3">
         <div class="container" id="content-container">
-            <h2>Question 1</h2>
-            <p>Organisational Requirements</p>
+            <h1>Content Questions</h1>
+            <p>Click on "Show/Hide Answer" to reveal the answer for each question</p>
 
-            <table class="table table-dark border text-light">
-                <tbody>
-                    <tr>
-                        <td>
-                            <button type="button" id="question-button" class="btn">Question</button>
-                        </td>
-                    </tr>
-                    <tr class="answer-row">
-                        <td>Answer</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="container" id="content-container">
+                <h2>--Question--</h2>
+                <table class="table table-dark border text-light">
+                    <tbody>
+                        <tr>
+                            <td>
+                            --Description--
+                            </td>
+                        </tr>
+                        <tr class="answer-row">
+                            <td>
+                                <a class="btn" data-bs-toggle="collapse" href="#collapseExample" id="outline-button" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                Show/Hide Answer
+                                </a>
+                                
+                                <div class="collapse" id="collapseExample">
+                                --Answer--
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
 
-            <table class="table table-dark border text-light">
-                <tbody>
-                    <tr>
-                        <td>
-                            <button type="button" id="question-button" class="btn">Question</button>
-                        </td>
-                    </tr>
-                    <tr class="answer-row">
-                        <td>Answer</td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table class="table table-dark border text-light">
-                <tbody>
-                    <tr>
-                        <td>
-                            <button type="button" id="question-button" class="btn">Question</button>
-                        </td>
-                    </tr>
-                    <tr class="answer-row">
-                        <td>Answer</td>
-                    </tr>
-                </tbody>
-            </table>
+            </div>
 
         </div>
-
     </div>
 </div>
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
