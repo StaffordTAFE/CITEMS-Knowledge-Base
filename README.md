@@ -2,8 +2,6 @@
 
 Welcome to the CITE Knowledge Base, your ultimate resource for comprehensive training and professional development.
 
-----
-
 # MySQL
 
 CREATE DATABASE IF NOT EXISTS knowledge_base;
