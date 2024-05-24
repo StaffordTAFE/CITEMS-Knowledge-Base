@@ -14,38 +14,16 @@
 <div id="background">
     <div class="container my-3">
         <div class="container" id="content-container">
+            <div class="container" id="questions">
             <h1>Content Questions</h1>
             <p>Click on "Show/Hide Answer" to reveal the answer for each question</p>
-
-            <div class="container" id="content-container">
-                <h2>--Question--</h2>
-                <table class="table table-dark border text-light">
-                    <tbody>
-                        <tr>
-                            <td>
-                            --Description--
-                            </td>
-                        </tr>
-                        <tr class="answer-row">
-                            <td>
-                                <a class="btn" data-bs-toggle="collapse" href="#collapseExample" id="outline-button" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                Show/Hide Answer
-                                </a>
-                                
-                                <div class="collapse" id="collapseExample">
-                                --Answer--
-                                </div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-
             </div>
-
         </div>
     </div>
 </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="js/question_js.js"></script>
 </body>
 
 </html>

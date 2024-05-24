@@ -1,14 +1,10 @@
 <?php
-//  Team Name: MRS Tech
-// 	Team Member: Jack Dylan Rendle
-// 	Date: 02/04/2024
-
 class config
 {
     private $servername = "localhost";
     private $username = "root";
     private $password = "";
-    private $dbname = "gallery";
+    private $dbname = "knowledge_base";
     protected $conn;
 
     public function __construct()
